@@ -7,7 +7,7 @@ DATA_DIR = "data/avazu-ctr-prediction"
 
 
 def check_data_exists_test():
-    assert os.path.exists(f"{DATA_DIR}/train.csv") == True
+    assert os.path.exists(f"../{DATA_DIR}/train.csv") == True
 
 
 def verify_data_shape():
